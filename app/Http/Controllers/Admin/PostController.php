@@ -1,6 +1,9 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace App\Http\Controllers\Admin;
+
+// copiando questo use da DashboardController mi funziona anche Controller, altrimenti non funzionerebbe
+use App\Http\Controllers\Controller;
 
 use App\Models\Post;
 use Illuminate\Http\Request;
